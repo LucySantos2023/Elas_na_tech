@@ -1,0 +1,17 @@
+h1{
+    color: red;
+}
+
+p{
+    text-indent: 58px;
+    font-size: 28px;
+    text-align: left;
+    color: #dbd709;
+    font-variant: small-caps;
+}
+
+
+.destaque{
+    color: #00126d;
+    font-weight: bold;
+}
