@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0;} 
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.texto-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img{
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    border:1px solid #c0c0c0;
+    float:left;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+.menu li{
+    text-decoration: none;
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+  }
+  
+.menu li a{
+    color:rgba(22, 15, 247, 0.733); 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+  
+.menu li a:hover{
+    background:#d8d0db;
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+    }
+  
+.menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color:#fff;
+    display:none;
+    text-decoration: none;
+    }
+    
+.menu li:hover ul, 
+.menu li.over ul{
+    display:block;
+}
+    
+.menu ul {
+    list-style-type: none; /* Remover bolinhas da lista */
+    padding: 0; /* Remover o preenchimento padrão da lista */
+    margin: 0; /* Remover a margem padrão da lista */ 
+}
+

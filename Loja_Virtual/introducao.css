@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;} 
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 12px; 
+    font-style: bold;
+    font-style: inherit;
+    background-image: url(imagens/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+
+}
+
+
+h1{
+    color:rgb(214, 151, 14); 
+    font-size:x-large ; 
+    text-align: center; 
+    font-size: 55px; 
+    font-style: italic; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 40px;
+}
+
+.menu{ /* estiliza a div que contém menu de navegação */
+  border:1px solid #c0c0c0;
+  float:left;
+  font-weight: bold;
+}
+
+.menu li{ /* estiliza cada item do menu de navegação */
+  text-decoration: none;
+  position:relative;
+  float:left;
+  border-right:1px solid #c0c0c0;
+}
+
+.menu li a{  /* estiliza os links do menu de navegação */
+  color:rgba(22, 15, 247, 0.733); 
+  text-decoration: none; 
+  padding:5px 10px; 
+  display:block;
+}
+
+.menu li a:hover{ /* estiliza os links quando o cursos passar por eles */
+  background:#d8d0db;
+  color:#fff;
+  text-shadow:0px 0px 5px #fff;
+  }
+
+.menu li ul{ /* estiliza os submenus suspensos */
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#fff;
+  display:none;
+  text-decoration: none;
+  }
+  
+.menu li:hover ul, 
+.menu li.over ul  /* exibe os submenus suspensos quando passa o mouse */{
+  display:block;
+}
+  
+.menu ul {
+    list-style-type: none; /* Remover bolinhas da lista */
+    padding: 0; /* Remover o preenchimento padrão da lista */
+    margin: 0; /* Remover a margem padrão da lista */    
+}
+
+.footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 1rem;
+}
